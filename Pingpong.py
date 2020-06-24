@@ -51,6 +51,8 @@ while run:
     border2 = pygame.draw.rect(win, white, (0, 15, 600, 2), 0)
     border3 = pygame.draw.rect(win, white, (585, 0, 2, 600), 0)
     border4 = pygame.draw.rect(win, white, (0, 585, 600, 2), 0)
+
+    # Events and keybinding
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
